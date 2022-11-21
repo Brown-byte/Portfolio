@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+    background-color: rgb(146, 213, 255);
+}
+
+.Whole{
+ /*background-color: white;*/
+ background-image: linear-gradient(to right, rgb(119, 85, 232), rgb(135, 151, 232),rgb(204, 210, 232));
+
+}
+
+.Container
+{
+   Display: flex;
+   flex-direction: row;
+}
+
+.Container .lists{
+    margin-left: 450px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.Container1{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.Container2{
+    display: flex;
+    flex-direction: row;
+}
+
+.Container2 img
+{
+ width: 200px;
+ height: 250px;
+ border-radius: 50px;
+ margin-left: 300px;
+ padding: 5px 4px;
+ 
+}
+
+div
+ {
+    border:1px;
+    border-radius: 12px;
+    padding: 15px;
+    align-items: center;
+      
+}
+
+
+.Container3{
+    display: flex;
+    flex-direction: row;
+}
+
+.Container3 .about{
+    margin-left: 100px;
+}
+
+.Container3 .skillset{
+    margin-left: 300px;
+   
+}
+
+.Container3 .skillset ul li{
+    border-radius: 50px;
+}
+
+/*
+.image:hover {
+    transform: translateY(-10px);
+}*/
+
+.navbar{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+
+
+
